@@ -1,9 +1,10 @@
 # Desmos-ImageRenderer
-. Plots Images in Desmos Graphing Calculator
+Plots Images in Desmos Graphing Calculator
 
-![output](https://user-images.githubusercontent.com/87863471/136710600-3ba77f16-d3aa-4747-a6e7-59aa4bfb5603.jpeg)
+![imgrend](https://user-images.githubusercontent.com/87863471/136836679-ec181848-9dc8-40e1-a81a-971f179b75bf.PNG)
+
 Image Plotted in Desmos using the Renderer
-<br>Install requirements
+<br><br>Install requirements
 ```sh
 pip install -r requirements.txt
 ```
