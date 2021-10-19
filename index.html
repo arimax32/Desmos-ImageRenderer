@@ -4,12 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Desmos</title>
+	<style type="text/css">
+		*{
+			margin: 0px 0px;
+			padding: 0px 0px;
+		}
+	</style>
 	<script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 </head>
 <body>
+	<div id="calculator" style="width: 100vw; height: 100vh;"></div>
 	<script>
 		let elt = document.getElementById('calculator');
-	    let calculator = Desmos.GraphingCalculator(elt);
+	    	let calculator = Desmos.GraphingCalculator(elt);
 
  		function draw() {
 		    xhr = new XMLHttpRequest();
